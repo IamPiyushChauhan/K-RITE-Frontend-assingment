@@ -1,0 +1,128 @@
+:root {
+    --main-gray: #999999
+}
+
+hr {
+   border: 0.0001px solid var(--main-gray);
+}
+.main {
+    display: flex;
+}
+
+.side-bar {
+    height: 97vh;
+    width: 20vw;
+    
+    margin: 2px;
+    border-radius: 30px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.body {
+    height: 97vh;
+    width: 80vw;
+    
+    border-radius: 30px;
+    margin: 2px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.team {
+    display: flex;
+    margin: 5%;
+    width:  90%;
+    justify-content: space-between;
+}
+.team img {
+    width: 2em;
+    height: 2em;
+    
+}
+
+.team p {
+    font-size: small;
+    margin: 0;
+    margin-top: 0.5em;
+   
+}
+
+.team .command-shortcut{
+    padding: 2.5%;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    height: 1em;
+    width: 2em;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    font-size: small;
+    color: gray; 
+}
+
+.create-a-form-div {
+    display: flex;
+    margin: 5%;
+    width:  90%;
+    color: var(--main-gray);
+    font-size: small;
+}
+
+.create-a-form-div img {
+    width: 2em;
+    height: 2em;
+}
+
+.create-folder {
+    display: flex;
+    margin: 5%;
+    width:  90%;
+    color: var(--main-gray);
+    font-size: small;
+    justify-content: space-between;
+}
+
+.create-folder img {
+    width: 2em;
+    height: 2em;
+}
+
+
+
+
+.folder-info {
+    display: flex;
+    margin: 5%;
+    width:  90%;
+    justify-content: space-between;
+}
+.folder-info img {
+    width: 2em;
+    height: 2em;
+    
+}
+
+.folder-info p {
+    font-size: small;
+    margin: 0;
+    margin-top: 0.5em;
+}
+
+.folder-info .folder-name {
+    display: flex;
+}
+
+
+.folder-info .folder-name .folder-main-title {
+    margin-top: 0.4em; 
+    margin-left: 0.4em;
+}
+
+.dw {
+    margin-left: 2em;
+    margin-top: 0.5em;
+    border-left: 1px solid var(--main-gray);
+}
+
+.dw .nested-menu-name {
+    padding: 0.5em;
+}
